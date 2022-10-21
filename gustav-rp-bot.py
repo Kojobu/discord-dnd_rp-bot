@@ -5,8 +5,8 @@ import discord
 from discord.ext import commands
 import pickle
 
-TOKEN = 'NzY4OTI2MzE0OTUwMjk1NTY3.GLzX3M.xJ2IxqpxgXyA550blVf9Afz2rPvAMeQZIhyjoE'
-GUILD = 'DISCORD_GUILD'
+TOKEN = 'DISCORD_TOKEN'
+GUILD = 'DISCORD_GUILD' #NOT REQUIRED
 
 intents = discord.Intents.default()
 intents.message_content = True
@@ -131,6 +131,7 @@ async def roll(ctx, name, score, thresh):
 async def info(ctx):
     await ctx.send("""Gustav rp-bot v1.0\n
     @Tom Schlenker
+    https://github.com/Kojobu/discord-dnd_rp-bot/
     """)
 
 @bot.command()
