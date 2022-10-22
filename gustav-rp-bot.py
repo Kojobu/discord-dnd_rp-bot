@@ -164,7 +164,7 @@ async def helpme(ctx):
     ```!add_char {#POINTS} {RANDOM?}``` - Adds a character with {#POINTS} ability points (base value is 20 if not given). If {RANDOM?} flag is set 1, ability score will be assigned randomly. 
     ```!del_char NAME``` - Removes the character from the database
     ```!show_char NAME``` - Returns the ability scores of the given character
-    ```!list_char``` - Returns a list of all saved characters with the corresponing ability scores
+    ```!list_chars``` - Returns a list of all saved characters with the corresponing ability scores
     ```!roll NAME SCORE``` - Check character's ability score (d20 roll, (rolled / character's ability))
     ```!mod_char NAME SCORE VALUE``` - Adds / subtracts given amount of ability points to character's score
     ```!test WORD``` - Returns WORD (for debug purposes only)
